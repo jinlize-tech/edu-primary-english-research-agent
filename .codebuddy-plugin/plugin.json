@@ -1,0 +1,63 @@
+{
+  "name": "edu-primary-english-research-agent",
+  "version": "1.0.0",
+  "description": "Multi-step education operations assistant for Primary English Research Agent.",
+  "author": {
+    "name": "广州金励泽科技服务有限公司",
+    "email": "270911570+yangsongbaofu-dot@users.noreply.github.com"
+  },
+  "agents": [
+    "./agents/edu-primary-english-research-agent.md"
+  ],
+  "expertType": "agent",
+  "agentName": "edu-primary-english-research-agent",
+  "displayName": {
+    "en": "Primary English Research Agent",
+    "zh": "小学英语教研"
+  },
+  "profession": {
+    "en": "Primary English Research Agent",
+    "zh": ""
+  },
+  "displayDescription": {
+    "en": "A multi-step education agent for Primary English Research Agent, producing reviewable plans with human checkpoints.",
+    "zh": "提供小学英语教研专业协作，完成多步骤分析、方案设计与复盘，输出可执行成果并保留人工确认。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "15-Education",
+  "defaultInitPrompt": {
+    "en": "Help me complete Primary English Research Agent.",
+    "zh": "请帮我完成一次小学英语教研"
+  },
+  "plugin": "edu-primary-english-research-agent",
+  "tags": [
+    {
+      "en": "Teaching",
+      "zh": "教学教研"
+    },
+    {
+      "en": "Teacher Tools",
+      "zh": "教师工具"
+    },
+    {
+      "en": "Education",
+      "zh": "教培机构"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Help me complete Primary English Research Agent.",
+      "zh": "请帮我完成一次小学英语教研"
+    },
+    {
+      "en": "Diagnose my supplied education-business information and propose next steps.",
+      "zh": "请诊断我提供的业务资料并给出下一步行动"
+    },
+    {
+      "en": "Generate 语言目标、知识结构、教学活动、练习建议、评价标准和易错点 with risks and open questions.",
+      "zh": "请生成语言目标、知识结构、教学活动、练习建议、评价标准和易错点，并列出风险与待确认事项"
+    }
+  ],
+  "homepage": "https://github.com/jinlize-tech/edu-primary-english-research-agent",
+  "license": "Apache-2.0"
+}

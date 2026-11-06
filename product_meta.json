@@ -1,0 +1,24 @@
+{
+  "number": 44,
+  "product_id": "JLZ-EDU-AG-009",
+  "chinese_name": "小学英语教研",
+  "english_name": "Primary English Research Agent",
+  "repository_name": "edu-primary-english-research-agent",
+  "product_type": "Agent",
+  "category": "03 教学教研中心",
+  "version": "1.0.0",
+  "status": "PACKAGE_READY",
+  "workbuddy_validation": "NOT_VERIFIED",
+  "license": "Apache-2.0",
+  "baseline_tag": "education-product-baseline-v1.0.0",
+  "package_path": "dist/edu-primary-english-research-agent-v1.0.0.zip",
+  "calculator": false,
+  "core_input": "教材版本、年级、单元、词汇语法阅读主题、课标要求与学情",
+  "main_output": "语言目标、知识结构、教学活动、练习建议、评价标准和易错点",
+  "package_entries": [
+    "edu-primary-english-research-agent/.codebuddy-plugin/plugin.json",
+    "edu-primary-english-research-agent/agents/edu-primary-english-research-agent.md",
+    "edu-primary-english-research-agent/avatars/expert.png",
+    "edu-primary-english-research-agent/README.md"
+  ]
+}
